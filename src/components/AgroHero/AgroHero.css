@@ -1,0 +1,86 @@
+.agroHero {
+  width: 100%;
+  background-image: url(/src/Assets/agro/HERO.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 90vh; */
+}
+
+.Text {
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  margin-top: 15rem;
+  margin-bottom: 8rem;
+}
+
+.Text h1 {
+  color: var(--white, #fff);
+  font-family: Lato;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  width: 40%;
+}
+
+.Text p {
+  color: var(--white, #fff);
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 32%;
+  padding: 1rem 0;
+}
+
+.Text button {
+  border-radius: 8px;
+  background: var(--mayframe-colour, #1429a9);
+  color: #fff;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.performance {
+  border-bottom: 1.5px solid rgba(227, 227, 227, 0.93);
+  background: #fff;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 5rem;
+  margin-top: -4rem;
+}
+
+.performance h2 {
+  color: var(--mayframe-colour, #1429a9);
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.performance p {
+  color: var(--light-black, #515151);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.performance hr{
+    width: 2px;
+    height: 100px;
+    border: 1.5px solid #e3e3e3;
+    margin: auto;
+}

@@ -1,0 +1,135 @@
+.container h2 {
+  color: #000;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 4rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.serviceFlex {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+.serviceText h3 {
+  color: var(--black, #1f1f21);
+  font-family: Lato;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 60%;
+}
+
+.serviceText p {
+  color: var(--light-black, #515151);
+  font-family: Lato;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 133.5%; /* 28.035px */
+  width: 75%;
+}
+
+.serviceImage{
+    width: 2000px;
+}
+.serviceImage img{
+    width: 100%;
+}
+
+.serviceText2{
+    margin-left: 4rem;
+}
+.serviceText2 h3 {
+  color: var(--black, #1f1f21);
+  font-family: Lato;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 100%;
+}
+
+.serviceText2 p {
+  color: var(--light-black, #515151);
+  font-family: Lato;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 133.5%; /* 28.035px */
+  width: 100%;
+}
+
+.serviceImage2{
+    width: 2000px;
+    margin-right: 6rem;
+}
+.serviceImage2 img{
+    width: 100%;
+}
+
+.serviceText3 h3 {
+    color: var(--black, #1f1f21);
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 100%;
+  }
+  
+  .serviceText3 p {
+    color: var(--light-black, #515151);
+    font-family: Lato;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.5%; /* 28.035px */
+    width: 85%;
+  }
+  
+  .serviceImage3{
+      width: 2000px;
+  }
+  .serviceImage3 img{
+      width: 100%;
+  }
+
+  .serviceText4{
+    margin-left: 4rem;
+}
+.serviceText4 h3 {
+  color: var(--black, #1f1f21);
+  font-family: Lato;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 100%;
+}
+
+.serviceText4 p {
+  color: var(--light-black, #515151);
+  font-family: Lato;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 133.5%; /* 28.035px */
+  width: 100%;
+}
+
+.serviceImage4{
+    width: 2000px;
+    margin-right: 6rem;
+}
+.serviceImage4 img{
+    width: 100%;
+}
+

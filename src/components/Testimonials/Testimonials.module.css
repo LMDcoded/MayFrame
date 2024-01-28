@@ -1,0 +1,68 @@
+.container{
+    text-align: center;
+}
+.container h5{
+    color: var(--secondary-yellow, #C19D59);
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.container h3{
+    color: var(--black, #1F1F21);
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-bottom: 3rem;
+}
+
+.allCards{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.card{
+    border-radius: 8px;
+border: 1px solid var(--secondary-yellow, #C19D59);
+background: #FFF;
+box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.08);
+margin: 1rem;
+padding: 2rem;
+}
+
+
+.card h4{
+    color: var(--black, #1F1F21);
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 121.4%; /* 29.136px */
+}
+
+.card h6{
+    color: var(--black, #1F1F21);
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 121.4%; /* 19.424px */
+}
+
+.card p{
+    color: var(--light-black, #515151);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 121.4%; /* 19.424px */
+width: 280px;
+}
+
