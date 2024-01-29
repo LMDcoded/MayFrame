@@ -5,6 +5,7 @@ import Benefits from '../../components/Benefits/Benefits'
 import Services from '../../components/Services/Services'
 import Testimonials from '../../components/Testimonials/Testimonials'
 import Contact from '../../components/Contact/Contact'
+import About from '../../components/About/About'
 
 const Agro = () => {
   return (
@@ -13,6 +14,7 @@ const Agro = () => {
         <Hero/>
         <Benefits/>
         <Services/>
+        <About/>
         <Testimonials/>
         <Contact/>
     </div>

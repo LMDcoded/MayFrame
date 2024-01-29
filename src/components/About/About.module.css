@@ -1,0 +1,28 @@
+.container{
+margin: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: #F8F8FD;
+margin-bottom: 6rem;
+}
+
+.aboutText{
+    width: 40%;
+    margin: auto;
+}
+
+.aboutImage{
+    width: 40%;
+    margin: auto;
+}
+
+.bigImage{
+    margin-left: 4rem;
+}
+
+.smallImage img{
+   margin-top: -21rem;
+   position: absolute;
+}
+
