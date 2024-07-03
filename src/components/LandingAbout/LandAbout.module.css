@@ -1,0 +1,62 @@
+.container {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+}
+
+.aboutImage {
+  width: 100%;
+}
+
+.aboutText {
+  width: 100%;
+}
+
+.aboutText h5 {
+  font-size: 20px;
+  color: #c19d59;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 1rem;
+}
+
+.aboutText h3 {
+  color: #1f1f21;
+  font-family: Lato;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 1rem;
+}
+.aboutText p {
+  color: #515151;
+  font-family: Lato;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.aboutText button {
+  border-radius: 8px;
+  background: var(--mayframe-colour, #1429a9);
+  color: #fff;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}

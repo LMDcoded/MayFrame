@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.container {
+  width: 100%;
+  display: flex;
+  background-color: #f7f8ff;
+}
+footer {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  gap: 4rem;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+.footerLogo img {
+  margin-bottom: 1rem;
+}
+.foottext p {
+  margin-bottom: 1rem;
+  width: 260px;
+  font-family: lato;
+}
+.footaddress p {
+  margin-bottom: 1rem;
+  gap: 1rem;
+  font-family: lato;
+}
+.quicklinkscontainer {
+  display: flex;
+  gap: 5rem;
+}
+.quicklinks h4 {
+  color: blue;
+  font-size: 24px;
+  margin-bottom: 1rem;
+  font-family: lato;
+}
+.followUs h4 {
+  color: blue;
+  font-size: 24px;
+  margin-bottom: 1rem;
+  font-family: lato;
+}
+.Socials {
+  display: flex;
+}
+.twitter,
+.instagram,
+.linkedin,
+.facebook {
+  font-size: 30px;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+.Email h4 {
+  color: blue;
+  font-size: 24px;
+  margin-bottom: 1rem;
+  font-family: lato;
+}
+.Email a {
+  color: black;
+}

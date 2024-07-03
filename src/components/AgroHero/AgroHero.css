@@ -84,3 +84,86 @@
     border: 1.5px solid #e3e3e3;
     margin: auto;
 }
+
+@media screen and (max-width: 1024px) {
+  .Text h1 {
+    width: 60%;
+    font-size: 54px;
+  }
+
+  .Text p{
+     width: 40%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Text h1 {
+    width: 70%;
+    font-size: 45px;
+  }
+
+  .Text p{
+     width: 50%;
+  }
+
+  .performance h2 {  
+    font-size: 30px;
+  }
+  
+  .performance p {    
+    font-size: 14px;
+    
+  }
+
+
+}
+
+@media screen and (max-width: 570px) {
+  .Text h1 {
+    width: 90%;
+    font-size: 45px;
+  }
+
+  .Text p{
+     width: 70%;
+  }
+
+  .performance{
+    padding: 1rem 3rem;
+  }
+}
+
+
+@media screen and (max-width: 426px) {
+  .Text h1 {
+    width: 100%;
+    font-size: 45px;
+  }
+
+  .Text p{
+     width: 90%;
+  }
+
+  .performance h2 {  
+    font-size: 20px;
+  }
+  
+  .performance p {    
+    font-size: 12px;
+    
+  }
+
+  .performance{
+    padding: .5rem 2rem;
+    margin-top: -2rem;
+  }
+
+  .performance hr{
+    width: 2px;
+    height: 60px;
+    border: 1.5px solid #e3e3e3;
+    margin: auto;
+}
+
+
+}

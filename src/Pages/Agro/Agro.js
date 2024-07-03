@@ -6,6 +6,7 @@ import Services from '../../components/Services/Services'
 import Testimonials from '../../components/Testimonials/Testimonials'
 import Contact from '../../components/Contact/Contact'
 import About from '../../components/About/About'
+import Footer from '../../components/Footer/Footer'
 
 const Agro = () => {
   return (
@@ -17,6 +18,7 @@ const Agro = () => {
         <About/>
         <Testimonials/>
         <Contact/>
+        <Footer/>
     </div>
   )
 }

@@ -1,0 +1,207 @@
+.container {
+  background-image: url(/src/Assets/landing\ hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.heroText {
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.heroText h1 {
+  color: var(--white, #fff);
+  font-family: Lato;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  width: 50%;
+}
+
+.heroText p {
+  color: var(--white, #fff);
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 32%;
+  padding: 1rem 0;
+}
+
+.heroText button {
+  border-radius: 8px;
+  background: var(--mayframe-colour, #1429a9);
+  color: #fff;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .heroText h1 {
+    width: 70%;
+  }
+
+  .heroText p {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heroText h1 {
+    width: 80%;
+    font-size: 50px;
+  }
+
+  .heroText p {
+    width: 60%;
+  }
+
+  
+}
+
+
+@media screen and (max-width: 540px) {
+  .heroText h1 {
+    width: 85%;
+    font-size: 30px;
+  }
+
+  .heroText p {
+    width: 65%;
+    font-size: 16px;
+  }
+
+  .heroText button {
+    font-size: 16px;
+  }
+
+  .container {
+    background-size: contain;
+  }
+
+  .heroText {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 426px) {
+  .heroText h1 {
+    width: 80%;
+    font-size: 30px;
+  }
+
+  .heroText p {
+    width: 70%;
+    font-size: 14px;
+  }
+
+  .container {
+    background-size: contain;
+  }
+
+  .heroText {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .heroText button {
+    font-size: 14px;
+  }
+
+  .heroText p{
+    padding: 0.5rem 0;
+  }
+
+  .heroText button{
+    padding: 0.5rem 0.5rem;
+  }
+}
+
+
+@media screen and (max-width: 376px) {
+  .heroText h1 {
+    width: 90%;
+    font-size: 20px;
+  }
+
+  .heroText p {
+    width: 75%;
+    font-size: 12px;
+  }
+
+  .heroText button {
+    font-size: 16px;
+  }
+
+  .container {
+    background-size: contain;
+  }
+
+  .heroText {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+}
+@media screen and (max-width: 320px) {
+  .heroText h1 {
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .heroText p {
+    width: 90%;
+    font-size: 12px;
+  }
+
+  .heroText button {
+    font-size: 16px;
+  }
+
+  .container {
+    background-size: contain;
+  }
+
+  .heroText {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+}
+@media screen and (max-width: 305px) {
+  .heroText h1 {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .heroText p {
+    width: 90%;
+    font-size: 10px;
+  }
+
+  .heroText button {
+    font-size: 10px;
+  }
+
+  .container {
+    background-size: contain;
+  }
+
+  .heroText {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+}

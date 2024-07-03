@@ -1,0 +1,55 @@
+.container {
+  width: 100%;
+  background: #1429a9;
+  padding: 5rem 0 5rem 0;
+}
+
+.compText p {
+  font-family: Lato;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 70.25px;
+  text-align: left;
+  color: #ffffff;
+  width: 80%;
+}
+
+.compNum h2 {
+  font-family: Lato;
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 115.2px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.compNum p {
+  font-family: Lato;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 28.04px;
+  text-align: left;
+  color: #f9f9f9;
+  margin-bottom: 2rem;
+}
+
+.compFlex {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+}
+
+.compHr hr {
+  width: 3px;
+  height: 300px;
+  color: #ffffff;
+}
+.compHr{
+  margin-right: 4rem;
+}
+
+.starImg{
+  margin-left: 550px;
+}

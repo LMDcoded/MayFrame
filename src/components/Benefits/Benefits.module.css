@@ -44,3 +44,48 @@
   line-height: 133.5%; /* 28.035px */
   width: 80%;
 }
+
+@media screen and (max-width: 768px) {
+  .bft h4 {
+    font-size: 20px;
+  }
+  
+  .bft h2 {
+    font-size: 25px;
+    width: 80%;
+  }
+  
+  .bft p {
+    font-size: 13.5px;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .overallBft{
+    flex-direction: column;
+  }
+
+  .container h3{
+    font-size: 30px;
+  }
+
+  .bft{
+    margin-bottom: 1rem;
+  }
+
+  .bft h2 {
+    font-size: 30px;
+    width: 80%;
+  }
+  
+  .bft p {
+    font-size: 16px;
+    width: 90%;
+  }
+
+  .bft h4{
+    font-size: 25px;
+  }
+}
+
