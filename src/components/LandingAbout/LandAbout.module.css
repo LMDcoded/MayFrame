@@ -9,7 +9,7 @@
   margin-bottom: 4rem;
 }
 
-.aboutImage {
+.aboutImage img {
   width: 100%;
 }
 
@@ -59,4 +59,37 @@
   padding: 0.5rem 1rem;
   border: none;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .aboutText h3 {
+    font-size: 30px;
+  }
+
+  .aboutText p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .aboutText h3 {
+    font-size: 22px;
+  }
+
+  .aboutText p {
+    font-size: 16px;
+  }
+
+  .aboutText button{
+    padding: 0.5rem 0.5rem;
+    font-size: 15px;
+  }
+
+}
+
+@media screen and (max-width: 540px) {
+  .container {
+   
+    display: flex;
+    flex-direction: column;
+  }
 }

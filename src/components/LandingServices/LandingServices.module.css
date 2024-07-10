@@ -38,3 +38,50 @@ margin-bottom: 2rem;
  width:33% ;
  padding: 0 0 0 2rem;
 }
+
+@media screen and (max-width:1024px) {
+    .container h3{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container h3{
+        width: 60%;
+        font-size: 28px;
+    }
+}
+@media screen and (max-width:540px) {
+    .container h3{
+        width: 70%;
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:426px) {
+    .container h3{
+        width: 75%;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:380px) {
+    .container h3{
+        width: 75%;
+        font-size: 20px;
+    }
+
+    .serviceImage1 img{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .serviceImage2 img{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .container h3{
+        width: 85%;
+        font-size: 16px;
+    }
+}

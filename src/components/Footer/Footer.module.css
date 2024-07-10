@@ -1,44 +1,43 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  overflow-x: hidden;
-}
+
 .container {
   width: 100%;
-  display: flex;
   background-color: #f7f8ff;
 }
+
 footer {
-  width: 80%;
+  width: 90%;
   margin: auto;
   display: flex;
-  gap: 4rem;
+  justify-content: space-between;
   margin-top: 3rem;
   margin-bottom: 5rem;
 }
 .footerLogo img {
   margin-bottom: 1rem;
+  width: 100%;
 }
 .foottext p {
   margin-bottom: 1rem;
-  width: 260px;
+  width: 300px;
   font-family: lato;
+  font-size: 20px;
 }
 .footaddress p {
   margin-bottom: 1rem;
-  gap: 1rem;
   font-family: lato;
+  font-size: 20px;
 }
-.quicklinkscontainer {
-  display: flex;
-  gap: 5rem;
-}
+
 .quicklinks h4 {
   color: blue;
   font-size: 24px;
   margin-bottom: 1rem;
   font-family: lato;
+}
+.quicklinks p{
+  font-family: lato;
+  font-size: 22px;
+  margin-bottom: 1rem;
 }
 .followUs h4 {
   color: blue;
@@ -48,6 +47,7 @@ footer {
 }
 .Socials {
   display: flex;
+  justify-content: space-between;
 }
 .twitter,
 .instagram,
@@ -65,4 +65,132 @@ footer {
 }
 .Email a {
   color: black;
+  font-family: lato;
+}
+
+@media screen and (max-width:768px) {
+  .quicklinks h4 {
+    font-size: 14px;
+    margin-bottom: 1rem;
+    font-family: lato;
+  }
+  .quicklinks p{
+    font-size: 15px;
+  }
+  .followUs h4 {
+    color: blue;
+    font-size: 16px;
+    margin-bottom: 1rem;
+    font-family: lato;
+  }
+  .Socials {
+    display: flex;
+    justify-content: space-between;
+  }
+  .twitter,
+  .instagram,
+  .linkedin,
+  .facebook {
+    font-size: 22px;
+    cursor: pointer;
+    margin-right: 1rem;
+  }
+  .footerLogo img {
+    margin-bottom: 1rem;
+    width: 80%;
+  }
+  .foottext p {
+    margin-bottom: 1rem;
+    width: 200px;
+    font-family: lato;
+    font-size: 16px;
+  }
+  .footaddress p{
+    font-size: 16px;
+  }
+  .Email h4{
+    font-size: 18px;
+  }
+  .Email a{
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:650px) {
+  footer{
+    flex-direction: column;
+  }
+
+  .footerLogo img{
+    width: 60%;
+  }
+
+  .foottext p {
+    margin-bottom: 1rem;
+    width: 300px;
+    font-family: lato;
+    font-size: 20px;
+  }
+  .footaddress p{
+    font-size: 20px;
+  }
+  .Email h4{
+    font-size: 20px;
+    margin-top: 2rem;
+  }
+  .Email a{
+    font-size: 20px;
+  }
+  .quicklinks h4{
+    font-size: 24px;
+    margin-top: 2rem;
+  }
+
+  .quicklinks p{
+    font-size: 20px;
+  }
+
+  .followUs h4{
+    font-size: 24px;
+    margin-top: 2rem;
+  }
+  .Socials{
+    width: 50%;
+    
+  }
+
+  .twitter,
+  .instagram,
+  .linkedin,
+  .facebook {
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 1rem;
+  }
+  
+}
+
+@media screen and (max-width:325px) {
+  .foottext p{
+    font-size: 18px;
+    width: 280px;
+  }
+
+  .footaddress p{
+    font-size: 18px;
+  }
+
+  .Socials{
+    width: 80%;
+    
+  }
+
+  .twitter,
+  .instagram,
+  .linkedin,
+  .facebook {
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 1rem;
+  }
 }

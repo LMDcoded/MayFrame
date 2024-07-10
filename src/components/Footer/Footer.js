@@ -22,11 +22,9 @@ const Footer = () => {
           </div>
           <div className={classes.footaddress}>
             <p>
-              {" "}
               <CiLocationOn /> Ogun State, Nigeria
             </p>
             <p>
-              {" "}
               <IoCallOutline /> 08079109515
             </p>
             <p>
@@ -34,7 +32,6 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className={classes.quicklinkscontainer}>
           <div className={classes.quicklinks}>
             <h4>Quicklinks</h4>
             <p>Home</p>
@@ -67,7 +64,6 @@ const Footer = () => {
             <h4>Email</h4>
             <a href="mailto:s.joshlam@gmail.com">s.joshlam@gmail.com</a>
           </div>
-        </div>
       </footer>
     </div>
   );

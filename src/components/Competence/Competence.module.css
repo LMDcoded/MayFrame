@@ -46,10 +46,108 @@
   height: 300px;
   color: #ffffff;
 }
-.compHr{
+.compHr {
   margin-right: 4rem;
 }
 
-.starImg{
+.starImg {
   margin-left: 550px;
+}
+
+@media screen and (max-width: 1024px) {
+  .compText p {
+    width: 90%;
+    font-size: 45px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .compText p {
+    width: 95%;
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .starImg {
+    margin-left: 250px;
+  }
+
+  .compNum h2 {
+    font-family: Lato;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80.2px;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  .compNum p {
+    font-family: Lato;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 28.04px;
+    text-align: left;
+    color: #f9f9f9;
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .compText p {
+    width: 95%;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .starImg {
+    margin-left: 150px;
+  }
+  .starImg img {
+    width: 20%;
+  }
+
+  .compNum h2 {
+    font-size: 40px;
+
+    line-height: 50.2px;
+  }
+
+  .compNum p {
+    font-size: 16px;
+    line-height: 20.04px;
+  }
+
+  .compHr hr {
+    height: 250px;
+    color: #ffffff;
+  }
+}
+@media screen and (max-width: 325px) {
+  .compText p {
+    width: 95%;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .starImg {
+    margin-left: 100px;
+  }
+  .starImg img {
+    width: 10%;
+  }
+
+  .compNum h2 {
+    font-size: 30px;
+
+    line-height: 30.2px;
+  }
+
+  .compNum p {
+    font-size: 14px;
+    line-height: 15.04px;
+    margin-bottom: 1rem;
+  }
+
+  .compHr hr {
+    height: 200px;
+    color: #ffffff;
+  }
 }
