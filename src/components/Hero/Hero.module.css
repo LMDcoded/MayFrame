@@ -96,10 +96,10 @@
     margin-bottom: 2rem;
   }
 }
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 465px) {
   .heroText h1 {
     width: 80%;
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .heroText p {
@@ -130,10 +130,10 @@
 }
 
 
-@media screen and (max-width: 385px) {
+@media screen and (max-width: 390px) {
   .heroText h1 {
     width: 90%;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .heroText p {
