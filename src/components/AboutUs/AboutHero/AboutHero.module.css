@@ -1,0 +1,20 @@
+.container{
+    width: 100%;
+    background-image: url(../../../Assets/aboutHero.png);
+    background-size: cover;
+    padding-top:20rem; padding-bottom:20rem ;
+}
+
+.container h3{
+font-family: Lato;
+font-size: 64px;
+font-weight: 900;
+line-height: 76.8px;
+margin-left: 6rem;
+color: #FFFFFF;
+
+}
+
+.container h3:hover{
+    cursor: pointer;
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./Footer.module.css";
-import footLogo from "../../Assets/agro/Agro LOGO.png";
+import footLogo from "../../Assets/Mayframe Property Development Blue 2 (1).png";
 import { CiLocationOn } from "react-icons/ci";
 import { IoCallOutline } from "react-icons/io5";
 import { FaWhatsapp } from "react-icons/fa6";

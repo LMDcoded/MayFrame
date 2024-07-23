@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import classes from "./Header.module.css"
-import logo from "../../Assets/agro/Agro LOGO.png";
+import logo from "../../Assets/Mayframe Property Development Blue 2 (1).png";
 import { Link } from "react-router-dom";
 import { IoMdMenu } from "react-icons/io";
 import { CgClose } from "react-icons/cg";
@@ -23,11 +23,11 @@ const Header = () => {
           <Link to="/" className={classes.navLink} onClick= {handleNavLinkClick}>
             <li>Home</li>
           </Link>
-          <Link to="/Services" className={classes.navLink} onClick= {handleNavLinkClick}>
-          <li>Services</li>
-          </Link>
           <Link to="/AboutUs" className={classes.navLink} onClick= {handleNavLinkClick}>
           <li>About Us</li>
+          </Link>
+          <Link to="/Services" className={classes.navLink} onClick= {handleNavLinkClick}>
+          <li>Services</li>
           </Link>
           <Link to="/Contact" className={classes.navLink} onClick= {handleNavLinkClick}>
             <li>Contact Us</li>

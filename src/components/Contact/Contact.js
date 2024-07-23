@@ -40,13 +40,13 @@ const Contact = () => {
         <div className={classes.contactInput}>
           <h3>Contact Us</h3>
           <form ref={form} onSubmit={sendEmail}>
-            <input type="text" name="Name" placeholder="Full Name" />
+            <input type="text" name="from_name" placeholder="Full Name" />
             <br />
-            <input type="email" name="Email" placeholder="Email Address" />
+            <input type="email" name="from_email" placeholder="Email Address" />
             <br />
-            <input type="text" name="Phone" placeholder="Phone Number" />
+            <input type="text" name="phone" placeholder="Phone Number" />
             <div className={classes.contactInput2}>
-              <input type='text' name="Message" placeholder="Message" />
+              <input type="text" name="message" placeholder="Message" />
             </div>
             <button type="submit">Send Message</button>
           </form>

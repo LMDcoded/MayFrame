@@ -1,0 +1,25 @@
+.container {
+  width: 90%;
+  margin: auto;
+  margin-top: 4rem;
+}
+.vision h3,
+.mission h3,
+.welcome h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+.vision p,
+.mission p,
+.welcome p {
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  margin-bottom: 3rem;
+}
