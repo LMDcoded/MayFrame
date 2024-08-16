@@ -12,9 +12,97 @@ font-weight: 900;
 line-height: 76.8px;
 margin-left: 6rem;
 color: #FFFFFF;
+width: 100%;
 
 }
 
 .container h3:hover{
     cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+    .container{
+       background-size: contain; 
+       padding-top: 15rem;padding-bottom: 15rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container{
+       background-size: contain; 
+       padding-top: 11rem;padding-bottom: 11rem;
+    }
+
+    .container h3{
+        font-size:50px ;
+    }
+}
+@media screen and (max-width: 710px) {
+    .container{
+       background-size: contain; 
+       padding-top: 10rem;padding-bottom: 10rem;
+    }
+
+    .container h3{
+        font-size:30px ;
+    }
+}
+@media screen and (max-width: 580px) {
+    .container{
+       background-size: contain; 
+       padding-top: 7rem;padding-bottom: 7rem;
+    }
+
+    .container h3{
+        font-size:30px ;
+    }
+}
+@media screen and (max-width: 480px) {
+    .container{
+       background-size: contain; 
+       padding-top: 6rem;padding-bottom: 6rem;
+    }
+
+    .container h3{
+        font-size:30px ;
+    }
+}
+@media screen and (max-width: 428px) {
+    .container{
+       background-size: 100%;
+       padding-top: 4.5rem; padding-bottom: 5rem;
+    }
+
+    .container h3{
+        font-size:30px ;
+    }
+}
+@media screen and (max-width: 380px) {
+    .container{
+       background-size: contain; 
+       padding-top: 4rem;padding-bottom: 4rem;
+    }
+
+    .container h3{
+        font-size:20px ;
+    }
+}
+@media screen and (max-width: 345px) {
+    .container{
+       background-size: contain; 
+       padding-top: 3.5rem;padding-bottom: 3.5rem;
+    }
+
+    .container h3{
+        font-size:20px ;
+    }
+}
+@media screen and (max-width: 321px) {
+    .container{
+       background-size: contain; 
+       padding-top: 3rem;padding-bottom: 3rem;
+    }
+
+    .container h3{
+        font-size:20px ;
+    }
 }
